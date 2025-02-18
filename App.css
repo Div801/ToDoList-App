@@ -1,0 +1,105 @@
+/* General Body Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures full-screen height */
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styling */
+div {
+  text-align: center;
+  margin: 20px; /* Adds spacing around elements */
+}
+
+/* Title Styling */
+h2 {
+  margin: 10px 0;
+  color: #333;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* Input Field Styling */
+input {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333; /* Slightly lighter shade on hover */
+}
+
+/* Task Container Styling */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkbox Styling */
+.checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox p {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.checkbox .icon {
+  color: #333; /* Default color for the icon */
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.checkbox:hover .icon {
+  color: green; /* Changes color on hover */
+}
+
+/* Icon Styling */
+.icon {
+  margin-left: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: red; /* Delete action hover color */
+}
+
+/* No Records Message */
+.no-records {
+  color: #999;
+  font-size: 18px;
+}
